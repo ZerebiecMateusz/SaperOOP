@@ -3,6 +3,7 @@ export class Ui {
         board: '[data-board]',
         cell: '[data-cell]',
         counter: '[data-counter]',
+        timer: '[data-timer]',
     }
     getElement(selector) {
         return document.querySelector(selector);
